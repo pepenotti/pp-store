@@ -21,7 +21,15 @@
               <h5 class="card-title">{{ item.name }}</h5>
               <p class="card-text">{{ item.description }}</p>
               <p class="card-text"><strong>{{ item.price }}</strong></p>
-              <p class="card-text"><span class="badge badge-info">{{ item.status }}</span></p>
+              <p class="card-text">
+                {% if item.status == 'Available' %}
+                  <span class="badge badge-success">{{ item.status }}</span>
+                {% elsif item.status == 'Reserved' %}
+                  <span class="badge badge-warning">{{ item.status }}</span>
+                {% elsif item.status == 'Sold' %}
+                  <span class="badge badge-danger">{{ item.status }}</span>
+                {% endif %}
+              </p>
             </div>
           </div>
         </div>

@@ -1,129 +1,9 @@
 [
   {
-    "id": 1,
-    "name": "Rayman Legends",
-    "image": "./assets/images/items/1.webp",
-    "description": "Comes without the box",
-    "price": "$25",
-    "status": "Available"
-  },
-  {
-    "id": 2,
-    "name": "The Lego Movie 2",
-    "image": "./assets/images/items/2.webp",
-    "description": "Comes with the box",
-    "price": "$20",
-    "status": "Available"
-  },
-  {
-    "id": 3,
-    "name": "Lego Star Wars The Skywalker Saga",
-    "image": "./assets/images/items/3.webp",
-    "description": "Comes with the box",
-    "price": "$30",
-    "status": "Available"
-  },
-  {
-    "id": 4,
-    "name": "Nickelodeon Kart Racers 2: Grand Prix",
-    "image": "./assets/images/items/4.webp",
-    "description": "Comes with the box",
-    "price": "$15",
-    "status": "Available"
-  },
-  {
-    "id": 5,
-    "name": "Sushi Striker: The way of the sushido",
-    "image": "./assets/images/items/5.webp",
-    "description": "Comes with the box",
-    "price": "$15",
-    "status": "Available"
-  },
-  {
-    "id": 6,
-    "name": "Lego Jurassic World",
-    "image": "./assets/images/items/6.webp",
-    "description": "Comes with the box",
-    "price": "$25",
-    "status": "Available"
-  },
-  {
-    "id": 7,
-    "name": "Doom",
-    "image": "./assets/images/items/7.webp",
-    "description": "Comes with the box",
-    "price": "$35",
-    "status": "Available"
-  },
-  {
-    "id": 8,
-    "name": "Vampyr",
-    "image": "./assets/images/items/8.webp",
-    "description": "Comes with the box",
-    "price": "$35",
-    "status": "Available"
-  },
-  {
-    "id": 9,
-    "name": "The Witcher 3: Wild Hunt Complete Edition",
-    "image": "./assets/images/items/9.webp",
-    "description": "Comes with the box",
-    "price": "$50",
-    "status": "Available"
-  },
-  {
-    "id": 10,
-    "name": "Luigi's Mansion 3",
-    "image": "./assets/images/items/10.webp",
-    "description": "Comes with the box",
-    "price": "$40",
-    "status": "Available"
-  },
-  {
-    "id": 11,
-    "name": "Super Mario 3D World + Browser's Fury",
-    "image": "./assets/images/items/11.webp",
-    "description": "Comes with the box",
-    "price": "$40",
-    "status": "Available"
-  },
-  {
-    "id": 12,
-    "name": "Metroid Dread",
-    "image": "./assets/images/items/12.webp",
-    "description": "Comes with the box",
-    "price": "$35",
-    "status": "Available"
-  },
-  {
-    "id": 13,
-    "name": "Super Mario Odyssey",
-    "image": "./assets/images/items/13.webp",
-    "description": "Comes with the box",
-    "price": "$45",
-    "status": "Available"
-  },
-  {
-    "id": 14,
-    "name": "The Legend of Zelda: Breath of the Wild",
-    "image": "./assets/images/items/14.webp",
-    "description": "Comes with the box",
-    "price": "$55",
-    "status": "Available"
-  },
-  {
     "id": 15,
     "name": "Asassin's Creed III Remastered",
     "image": "./assets/images/items/15.webp",
-    "description": "Comes with the box",
-    "price": "$25",
-    "status": "Available"
-  },
-  {
-    "id": 16,
-    "name": "WarioWare: Get It Together!",
-    "image": "./assets/images/items/16.webp",
-    "description": "Comes without the box",
+    "description": "Viene con la caja",
     "price": "$25",
     "status": "Available"
   },
@@ -131,16 +11,136 @@
     "id": 17,
     "name": "Dragon Ball: Xenoverse 2",
     "image": "./assets/images/items/17.webp",
-    "description": "Comes without the box",
+    "description": "Viene sin la caja",
     "price": "$20",
+    "status": "Available"
+  },
+  {
+    "id": 7,
+    "name": "Doom",
+    "image": "./assets/images/items/7.webp",
+    "description": "Viene con la caja",
+    "price": "$35",
+    "status": "Available"
+  },
+  {
+    "id": 6,
+    "name": "Lego Jurassic World",
+    "image": "./assets/images/items/6.webp",
+    "description": "Viene con la caja",
+    "price": "$25",
+    "status": "Available"
+  },
+  {
+    "id": 3,
+    "name": "Lego Star Wars The Skywalker Saga",
+    "image": "./assets/images/items/3.webp",
+    "description": "Viene con la caja",
+    "price": "$30",
+    "status": "Available"
+  },
+  {
+    "id": 2,
+    "name": "The Lego Movie 2",
+    "image": "./assets/images/items/2.webp",
+    "description": "Viene con la caja",
+    "price": "$20",
+    "status": "Available"
+  },
+  {
+    "id": 14,
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "image": "./assets/images/items/14.webp",
+    "description": "Viene con la caja",
+    "price": "$55",
+    "status": "Available"
+  },
+  {
+    "id": 9,
+    "name": "The Witcher 3: Wild Hunt Complete Edition",
+    "image": "./assets/images/items/9.webp",
+    "description": "Viene con la caja",
+    "price": "$50",
+    "status": "Available"
+  },
+  {
+    "id": 8,
+    "name": "Vampyr",
+    "image": "./assets/images/items/8.webp",
+    "description": "Viene con la caja",
+    "price": "$35",
     "status": "Available"
   },
   {
     "id": 18,
     "name": "Need For Speed Hot Pursuit Remastered",
     "image": "./assets/images/items/18.webp",
-    "description": "Comes with the box",
+    "description": "Viene con la caja",
     "price": "$30",
     "status": "Available"
+  },
+  {
+    "id": 4,
+    "name": "Nickelodeon Kart Racers 2: Grand Prix",
+    "image": "./assets/images/items/4.webp",
+    "description": "Viene con la caja",
+    "price": "$15",
+    "status": "Available"
+  },
+  {
+    "id": 1,
+    "name": "Rayman Legends",
+    "image": "./assets/images/items/1.webp",
+    "description": "Viene sin la caja",
+    "price": "$25",
+    "status": "Available"
+  },
+  {
+    "id": 5,
+    "name": "Sushi Striker: The way of the sushido",
+    "image": "./assets/images/items/5.webp",
+    "description": "Viene con la caja",
+    "price": "$15",
+    "status": "Available"
+  },
+  {
+    "id": 13,
+    "name": "Super Mario Odyssey",
+    "image": "./assets/images/items/13.webp",
+    "description": "Viene con la caja",
+    "price": "$45",
+    "status": "Available"
+  },
+  {
+    "id": 16,
+    "name": "WarioWare: Get It Together!",
+    "image": "./assets/images/items/16.webp",
+    "description": "Viene sin la caja",
+    "price": "$25",
+    "status": "Available"
+  },
+  {
+    "id": 12,
+    "name": "Metroid Dread",
+    "image": "./assets/images/items/12.webp",
+    "description": "Viene con la caja",
+    "price": "$35",
+    "status": "Reserved"
+  },
+  {
+    "id": 10,
+    "name": "Luigi's Mansion 3",
+    "image": "./assets/images/items/10.webp",
+    "description": "Viene con la caja",
+    "price": "$40",
+    "status": "Reserved"
+  },
+  {
+    "id": 11,
+    "name": "Super Mario 3D World + Bowser's Fury",
+    "image": "./assets/images/items/11.webp",
+    "description": "Viene con la caja",
+    "price": "$40",
+    "status": "Reserved"
   }
 ]
