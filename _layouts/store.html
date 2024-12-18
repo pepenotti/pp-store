@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pepenotti - Switch Games</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="{{ '/assets/js/checkImages.js' | relative_url }}"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <h1 class="my-4 text-center">Pepenotti - Switch Games</h1>
+    <div class="row">
+      {% for item in site.data.items %}
+        <div class="col-md-2 mb-4">
+          <div class="card h-100 custom-card">
+            <img src="{{ item.image }}" class="card-img-top" alt="{{ item.name }}">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.name }}</h5>
+              <p class="card-text">{{ item.description }}</p>
+              <p class="card-text"><strong>{{ item.price }}</strong></p>
+              <p class="card-text"><span class="badge badge-info">{{ item.status }}</span></p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>

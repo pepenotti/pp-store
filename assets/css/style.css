@@ -1,0 +1,38 @@
+.store-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .store-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+  }
+  .store-item img {
+    max-width: 100%;
+  }
+
+  .custom-card {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-card .card-body {
+    margin-top: auto;
+  }
+
+  .custom-container {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-title {
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+  }
