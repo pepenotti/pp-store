@@ -12,6 +12,8 @@
 <body>
   <div class="container-fluid">
     <h1 class="my-4 text-center">Pepenotti - Switch Games</h1>
+    {% assign exchange_rate = 1100 %}
+    <p class="text-center">Tasa de cambio: 1 USD = {{ exchange_rate }} ARS</p>
     <div class="row">
       {% for item in site.data.items %}
         <div class="col-md-2 mb-4">
@@ -20,14 +22,17 @@
             <div class="card-body">
               <h5 class="card-title">{{ item.name }}</h5>
               <p class="card-text">{{ item.description }}</p>
-              <p class="card-text"><strong>{{ item.price }}</strong></p>
               <p class="card-text">
-                {% if item.status == 'Available' %}
-                  <span class="badge badge-success">{{ item.status }}</span>
-                {% elsif item.status == 'Reserved' %}
-                  <span class="badge badge-warning">{{ item.status }}</span>
-                {% elsif item.status == 'Sold' %}
-                  <span class="badge badge-danger">{{ item.status }}</span>
+                <strong>USD {{ item.price }}</strong><br>
+                <strong>ARS {{ item.price | times: exchange_rate }}</strong>
+              </p>
+              <p class="card-text">
+                {% if item.status == 'Disponible' %}
+                  <span class="badge badge-success">Disponible</span>
+                {% elsif item.status == 'Reservado' %}
+                  <span class="badge badge-warning">Reservado</span>
+                {% elsif item.status == 'Vendido' %}
+                  <span class="badge badge-danger">Vendido</span>
                 {% endif %}
               </p>
             </div>
